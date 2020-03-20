@@ -1,0 +1,39 @@
+{% extends "layout.html" %} {% block body %}
+
+
+
+  
+
+
+<div class="container">
+  <div class="card border-0 shadow my-5">
+    <div class="card-body p-5">
+      <h1 class="font-weight-light">Crop Cycle Parameter Extraction</h1>
+      <p class="lead">This portal provides you with crop cycle parameters</p>
+        
+        
+        <div class="top">
+  
+          <button class="button-type1" onclick="myFunction()">RUN</button>
+
+          <div class="loadingAnimation" id="loading" style="display: none;">
+            <div class="loader"></div>
+            <h2>Processing Images</h2>
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+  
+
+  <script>
+    function myFunction()
+    {
+      document.getElementById('loading').style.display='block';
+      window.location.href="page2";
+    }
+  </script>
+
+{% endblock %}
