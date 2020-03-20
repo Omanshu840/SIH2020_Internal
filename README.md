@@ -24,7 +24,8 @@ where Red and NIR stand for the spectral reflectance measurements acquired in th
 This index defines values from -1.0 to 1.0, basically representing rocks and bare soil. Very small values (0.1 or less) of the NDVI function correspond to empty areas of rocks, sand or snow. Moderate values (from 0.2 to 0.3) represent shrubs and meadows, while large values where negative values are mainly formed from clouds, water and snow, and values close to zero are primarily formed 0.6 to 0.8 indicate temperate and tropical forests.
 #### Implementation
 We have 2 images for exactly same time stamp. Which corresponds to the NIR and Red Pixel Values. So we calculate NDVI values for every pixel and color code them to differetiate between areas with and without vegetation.<br>
-Plot a graph of percentage green areas during course of 24 months. Cropping pattern, date of sowing, harvesting can be extracted from the obtained graph. 
+Plot a graph of percentage green areas during course of 24 months. Cropping pattern, date of sowing, harvesting can be extracted from the obtained graph. <br>
+![alt text](https://github.com/Omanshu840/SIH2020_Internal/blob/master/static/img/img1.png)
 #### Dependencies
 - OpenCV
 - MatplotLib
