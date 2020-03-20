@@ -15,6 +15,30 @@
         
         </div>
 
+        <div class="parameters">
+            <div class="cycles"> 
+                <h3>Number of Cycles : {{ num_cycle }}</h3>
+            </div>
+            <div class="sowing">
+                <h3> Dates of Sowing</h3>
+                {% for i in range(0,ds+1) %}
+
+                <p> {{ date_sowing[i] }} </p>
+
+                {% endfor %}
+            </div>
+
+            <div class="harvest">
+                <h3> Dates of Harvest</h3>
+                {% for i in range(0,dh+1) %}
+
+                <p> {{ date_harvest[i] }} </p>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
 
       </div>
     </div>
